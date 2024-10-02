@@ -1,0 +1,284 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-image: url();
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 100vh;
+    /* Garante que o body tenha pelo menos a altura da viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.containerone {
+    width: 80%;
+    margin: 0 auto;
+    flex: 1;
+    /* Faz o container ocupar o espaço restante da tela */
+}
+
+/* Header */
+.header {
+    background: url('img/passeiomeio.jpg') no-repeat center center/cover;
+    width: 100%;
+    padding: 135px 0 170px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.nomehappy {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e2c74d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+.header h1,
+.header .subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header .subtitulo {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* Barra de Pesquisa */
+.search-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.search-container {
+    display: inline-flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+    width: 400px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    height: 40px;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+/* Box Central */
+.box-central {
+    margin: 50px auto;
+    background: #fff;
+    width: 60%;
+    z-index: 100;
+    background-image: url(img/fundodois.jpg);
+}
+
+.check-one {
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.picon-check-circle {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Features */
+.features {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature-item {
+    width: 30%;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    border-radius: 10px;
+    height: 65px;
+    background: #e2c74d;
+    padding: 17px 17px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.15), 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.blue-default {
+    color: #007bff;
+}
+
+
+
+.check-one {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Duas colunas */
+    gap: 20px;
+    /* Espaço entre os blocos */
+    justify-items: center;
+}
+
+.check-one {
+    padding: 10px;
+}
+
+
+
+.text-one{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: flex-end;
+}
+
+/* Estilo geral do rodapé */
+footer {
+    background-color: #000; /* Fundo preto */
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.Imglogo img {
+    max-width: 150px; /* Tamanho da logo */
+}
+
+.social{
+    margin-left: 55px;
+}
+
+.social a {
+    margin-right: 10px;
+    color: #ccc;
+}
+
+.social a:hover {
+    color: #fff;
+}
+
+
+.Saibamais, .Sobrenos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;
+}
+
+.Saibamais h6, .Sobrenos h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.Saibamais a, .Sobrenos a {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.Saibamais a:hover, .Sobrenos a:hover {
+    color: #fff;
+}
+
+.Contatoemail {
+    margin-top: 20px;
+}
+
+.Contatoemail a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.Contatoemail a:hover {
+    color: #fff;
+}
+
+/* Ajuste da tipografia */
+footer h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer a {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.Saibamais a:hover, .Sobrenos a:hover, .Contatoemail a:hover{
+    color: #f5871f;
+}
